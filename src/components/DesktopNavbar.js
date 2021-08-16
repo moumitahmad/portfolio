@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Box, Container } from '@material-ui/core';
+import { Typography, Box } from '@material-ui/core';
 import { Link as Scroller } from 'react-scroll';
 
 function DesktopNavbar(props) {

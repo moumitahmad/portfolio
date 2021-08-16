@@ -1,22 +1,11 @@
 import '../style/App.css';
 
 import { Grid, Box, Button, Typography, Container } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
-
-import handshake from '../img/handshake.gif';
-
-const useStyles = makeStyles((theme) => ({
-    large: {
-      width: theme.spacing(20),
-      height: theme.spacing(20)
-    }
-}));  
 
 
 
 function ContactFooter() {
 
-    const classes = useStyles();
     const contactItems = [
         {
             title: "EMAIL",

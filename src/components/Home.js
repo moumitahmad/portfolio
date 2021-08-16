@@ -1,7 +1,6 @@
 import '../style/App.css';
 
 import MainContent from './MainContent';
-import Hero from './Hero';
 import Navbar from './Navbar';
 import ContactFooter from './ContactFooter';
 import { motion } from 'framer-motion';

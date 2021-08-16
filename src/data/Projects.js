@@ -15,15 +15,15 @@
             image: "FSPreview.svg",
             about: [
                 "Dieses Projekt entstand im Modul Datenbankenbasierte Web-Anwendung.",
-                "Das Projekt hat mir gezeigt MySQL Datenbanken aufzusetzen und diese Daten anschließend mit Angular in ein interaktive Webseite zu entwickeln. So haben wir Typscript für den Front-End Teil und NodeJs für den Back-End Teil genutzt.\
-                Ich habe dieses Projekt in einem Team von drei Personen entwickelt.",
+                "Das Projekt hat mir gezeigt MySQL Datenbanken aufzusetzen und diese Daten anschließend mit Angular in ein interaktive Webseite zu entwickeln. So haben wir Typscript für den Front-End Teil und NodeJs für den Back-End Teil genutzt.",
+                "Ich habe dieses Projekt in einem Team von drei Personen entwickelt.",
                 <br />,
                 "Bei FANTASY SCORE kannst du als Tugendhafter loslegen und verschiedene Aufgaben, sogenannte Tugenden, erfüllen und somit dein Social Score immer weiter steigern, so dass du ganz oben auf der Bestenliste stehst.",
-                "Zudem kannst du Dienste anbieten, mit denen du Suchenden und anderen Tudendhaften deine einigartigen Fähigkeiten, wie zum Beispiel Gasen mit einer Nagelschere schneiden, präsentierst und anbiehtest.\
-                Suchende sowie andere Tugendhaften können dieses Angebot buchen und dien Dienste zu einem bestimmten Datum in Anspruch nehmen.",
+                "Zudem kannst du Dienste anbieten, mit denen du Suchenden und anderen Tudendhaften deine einigartigen Fähigkeiten, wie zum Beispiel Gasen mit einer Nagelschere schneiden, präsentierst und anbiehtest.",
+                "Suchende sowie andere Tugendhaften können dieses Angebot buchen und dien Dienste zu einem bestimmten Datum in Anspruch nehmen.",
                 "Wenn du dich zunächst nur als Suchender registierst, wirst du schnell merken, dass dir die Tugenden fehlen, aber natürlich kannst du auf Knopfdruch dein Account upgraden ohne deine gebuchten Dienste zu verliehren.",
-                "Außerdem gibt es noch Älteste, die dafür sorgen das neue Bonusprogramme exsistieren und die Tugenden unserer Gesellschaft updaten. Doch um dich als Ältester registrieren zu können musst du in den Ältestenrad gewählt werden und die anschließen mit dem Geheimcode auf der Webseite regierieren.\
-                Frohes Sammeln!"
+                "Außerdem gibt es noch Älteste, die dafür sorgen das neue Bonusprogramme exsistieren und die Tugenden unserer Gesellschaft updaten. Doch um dich als Ältester registrieren zu können musst du in den Ältestenrad gewählt werden und die anschließen mit dem Geheimcode auf der Webseite regierieren.",
+                "Frohes Sammeln!"
             ],
             hasGallery: true,
             mockup: "",

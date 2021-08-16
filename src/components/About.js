@@ -1,19 +1,10 @@
 import React, { useState } from 'react';
 import { Container, Grid, Typography, CardMedia } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
 import { motion } from "framer-motion";
 
 import VisibilitySensor from 'react-visibility-sensor';
 
 import meImg from '../img/profilfoto.jpg';
-
-
-const useStyles = makeStyles((theme) => ({
-    large: {
-      width: theme.spacing(20),
-      height: theme.spacing(20)
-    },
-}));  
 
 
 function About() {
@@ -46,9 +37,6 @@ function About() {
             transition
         }
     };
-
-    // costum material ui styles
-    const classes = useStyles();
 
     return(
         <VisibilitySensor onChange={isInView}>

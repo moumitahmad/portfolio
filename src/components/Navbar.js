@@ -4,11 +4,9 @@ import '../style/App.css';
 import DesktopNavbar from './DesktopNavbar';
 import MobileNavbar from './MobileNavbar';
 
-import { AppBar, Toolbar, Typography, Box, Link, Breadcrumbs } from '@material-ui/core';
+import { AppBar, Toolbar, Typography, Box, Link } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { Link as RouterLink } from 'react-router-dom';
-import { Link as Scroller } from 'react-scroll';
-import { motion } from 'framer-motion';
 
 
 const useStyles = makeStyles((theme) => ({

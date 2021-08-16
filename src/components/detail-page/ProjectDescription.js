@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, Grid, Typography, Avatar, CardMedia } from '@material-ui/core';
+import { Container, Grid, Typography, CardMedia } from '@material-ui/core';
 import DescriptionIcon from '@material-ui/icons/Description';
 import GroupsIcon from '@material-ui/icons/Group';
 import TimerIcon from '@material-ui/icons/Timer';
