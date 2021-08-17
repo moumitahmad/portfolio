@@ -68,7 +68,7 @@ function PresentDetail({ match }) {
                     { project.mockup === ""
                     ? null
                     : <Mockup project={ project }></Mockup> }
-                    { project.myWork.length == 0
+                    { project.myWork.length === 0
                     ? null
                     : <MyWorkSection project={ project }></MyWorkSection> }
                     <ul className="project-links">

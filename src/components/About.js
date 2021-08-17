@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Grid, Typography, CardMedia } from '@material-ui/core';
+import { Grid, Typography, CardMedia } from '@material-ui/core';
 import { motion } from "framer-motion";
 
 import VisibilitySensor from 'react-visibility-sensor';
