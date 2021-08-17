@@ -2,7 +2,7 @@ import '../style/App.css';
 
 import { Grid, Box, Button, Typography, Container } from '@material-ui/core';
 
-
+import cv_path from '../assets/Lebenslauf_MoumitaAhmad.pdf';
 
 function ContactFooter() {
 
@@ -18,6 +18,10 @@ function ContactFooter() {
         {
             title: "LINKEDIN",
             path: "https://de.linkedin.com/in/moumita-ahmad-279b2a1b4"
+        },
+        {
+            title: "XING",
+            path: ""
         }
     ]
 
@@ -46,7 +50,7 @@ function ContactFooter() {
                     <Typography gutterBottom variant="h5" component="h2" color="primary">
                         Downloads
                     </Typography>
-                    <Button className="contact-button">Lebenslauf</Button>
+                        <Button target="_blank" rel="noopener noreferrer" href={cv_path} className="contact-button">Lebenslauf</Button>
                     </Box>
                 </Grid>
             </Grid>

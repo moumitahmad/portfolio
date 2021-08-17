@@ -2,6 +2,30 @@
     const projects = [
         {
             id: 0,
+            title: "FamilyTree",
+            description: "Anwedung zum Speichern und Visuallisieren von Familenhistorien.",
+            team: "Drei-köpfiges Team",
+            duration: "ein Semester",
+            time: "6. Semester, Beginn 2021",
+            technologies: [
+                "C++", 
+                "SQLite", 
+                "Simple GUI Anwednung"
+            ],
+            image: "PortfolioPreview.svg",
+            about: [
+                "Mein Portfolio habe ich dazu genutzt mich mit React vertraut zu machen.",
+                "Dabei habe viel Wert darauf gelegt alle Components so zu konzipieren, dass diese gut wiederverwendbar sind und so wenig wie möglich Projekt spezifischen code enthalten, so dass weitere Projekte problemlos eingefügt werden können.",
+                "Um schnell ein ansehnliches Design zu erhalten habe ich Material UI als CSS Framework genutzt. Und für die Grafiken konnte ich meine Kenntnisse in den Adobe Programmen gebrauchen."
+            ],
+            hasGallery: false,
+            mockup: "",
+            myWork: [],
+            path: "https://github.com/moumitahmad/Stammbaum",
+            docu: ""
+        },
+        {
+            id: 1,
             title: "Fantasy Score",
             description: "Datenbank basierte Webanwendung für mehrere User",
             team: "Drei köpfiges Team",
@@ -36,7 +60,7 @@
             doku: "Doku_Schuster_Ahmad_Wennesheimer_DBWeb_FantasyScore.pdf"
         },
         {
-            id: 1,
+            id: 2,
             title: "BuildAR",
             description: "Entwicklung einer AR Anwendung mit Hilfe von User-Feedback",
             team: "Drei köpfiges Team",
@@ -66,32 +90,31 @@
             docu: ""
         },
         {
-            id: 2,
-            title: "Fantasy League",
-            description: "Softwareentwicklungsprozesse kennenlernen",
-            team: "",
+            id: 3,
+            title: "Tangible Music",
+            description: "Webanwendung mit React",
+            team: "fünf-köpfiges Team",
             duration: "ein Semester",
-            time: "4. Semester, Beginn 2020",
+            time: "6. Semester, Beginn 2021",
             technologies: [
-                "Software Modelle", 
-                "Agile Softwareentwicklung", 
-                "Entwicklungsprozesse"
+                "Design for people with special needs", 
+                "Usertests", 
+                "Unity"
             ],
-            image: "FantasyLeaguePreview.svg",
+            image: "PortfolioPreview.svg",
             about: [
-                "Dieses Projekt ist im Modul Softwareentwicklung entstanden und war dazu da um Entwicklungsmethodik und Modelle kennenzulernen.",
-                "Wir haben uns das Thema Fantasy Leagues herausgesucht, in denen man individuelle Mannschaften erstellen kann und gegen andere Mannschaften antreten kann.",
-                "In diesem Projekt erstellen wir mehrere Diagramme und konzeptionierten so die Funktionen der Software.",
-                "Zum erstellen dieser Modelle nutzen wir Visual Paradigm und lernten so auch viel über diese Software."
+                "Mein Portfolio habe ich dazu genutzt mich mit React vertraut zu machen.",
+                "Dabei habe viel Wert darauf gelegt alle Components so zu konzipieren, dass diese gut wiederverwendbar sind und so wenig wie möglich Projekt spezifischen code enthalten, so dass weitere Projekte problemlos eingefügt werden können.",
+                "Um schnell ein ansehnliches Design zu erhalten habe ich Material UI als CSS Framework genutzt. Und für die Grafiken konnte ich meine Kenntnisse in den Adobe Programmen gebrauchen."
             ],
-            hasGallery: true,
+            hasGallery: false,
             mockup: "",
             myWork: [],
-            path: "",
-            docu:""
+            path: "https://github.com/RolimJ/TangibleMusic",
+            docu: "DDM_documentation_Sattler_Lehmkuhl_Ahmad_Jacobse_Ward.pdf"
         },
         {
-            id: 3,
+            id: 4,
             title: "SmartFactory",
             description: "Anwendung zum planen und simulieren von Fabriken in AR",
             team: "Drei köpfiges Team",
@@ -124,7 +147,56 @@
             docu2: "MixedRealityDokumentation_Semester1.pdf"
         },
         {
-            id: 4,
+            id: 5,
+            title: "Fantasy League",
+            description: "Softwareentwicklungsprozesse kennenlernen",
+            team: "",
+            duration: "ein Semester",
+            time: "4. Semester, Beginn 2020",
+            technologies: [
+                "Software Modelle", 
+                "Agile Softwareentwicklung", 
+                "Entwicklungsprozesse"
+            ],
+            image: "FantasyLeaguePreview.svg",
+            about: [
+                "Dieses Projekt ist im Modul Softwareentwicklung entstanden und war dazu da um Entwicklungsmethodik und Modelle kennenzulernen.",
+                "Wir haben uns das Thema Fantasy Leagues herausgesucht, in denen man individuelle Mannschaften erstellen kann und gegen andere Mannschaften antreten kann.",
+                "In diesem Projekt erstellen wir mehrere Diagramme und konzeptionierten so die Funktionen der Software.",
+                "Zum erstellen dieser Modelle nutzen wir Visual Paradigm und lernten so auch viel über diese Software."
+            ],
+            hasGallery: true,
+            mockup: "",
+            myWork: [],
+            path: "",
+            docu:""
+        },
+        {
+            id: 6,
+            title: "TeaCooker",
+            description: "Ein Assitent, um immer den optimalsten Tee zu brühen",
+            team: "alleine",
+            duration: "ein Semester",
+            time: "6. Semester, Beginn 2021",
+            technologies: [
+                "Microcontroller", 
+                "Arduino",
+                "C++"
+            ],
+            image: "PortfolioPreview.svg",
+            about: [
+                "Mein Portfolio habe ich dazu genutzt mich mit React vertraut zu machen.",
+                "Dabei habe viel Wert darauf gelegt alle Components so zu konzipieren, dass diese gut wiederverwendbar sind und so wenig wie möglich Projekt spezifischen code enthalten, so dass weitere Projekte problemlos eingefügt werden können.",
+                "Um schnell ein ansehnliches Design zu erhalten habe ich Material UI als CSS Framework genutzt. Und für die Grafiken konnte ich meine Kenntnisse in den Adobe Programmen gebrauchen."
+            ],
+            hasGallery: false,
+            mockup: "",
+            myWork: [],
+            path: "https://github.com/moumitahmad/TeaCooker",
+            docu: "MoumitaAhmad_TeaCooker_Documentation.pdf"
+        },
+        {
+            id: 7,
             title: "Risiko",
             description: "Das Brettspiel 'Risiko' als Java-basiertes Multiplayer Spiel",
             team: "Drei köpfiges Team",
@@ -149,8 +221,8 @@
             docu: ""
         },
         {
-            id: 5,
-            title: "Mein Portfolio",
+            id: 8,
+            title: "Mein Portfolio OR Design Arbeiten",
             description: "Webanwendung mit React",
             team: "alleine",
             duration: "ein Semester",
@@ -170,77 +242,6 @@
             mockup: "",
             myWork: [],
             path: "https://github.com/moumitahmad/portfolio",
-            docu: ""
-        },
-        {
-            id: 6,
-            title: "FamilyTree",
-            description: "Anwedung zum Speichern und Visuallisieren von Familenhistorien.",
-            team: "Drei-köpfiges Team",
-            duration: "ein Semester",
-            time: "6. Semester, Beginn 2021",
-            technologies: [
-                "C++", 
-                "SQLite"
-            ],
-            image: "PortfolioPreview.svg",
-            about: [
-                "Mein Portfolio habe ich dazu genutzt mich mit React vertraut zu machen.",
-                "Dabei habe viel Wert darauf gelegt alle Components so zu konzipieren, dass diese gut wiederverwendbar sind und so wenig wie möglich Projekt spezifischen code enthalten, so dass weitere Projekte problemlos eingefügt werden können.",
-                "Um schnell ein ansehnliches Design zu erhalten habe ich Material UI als CSS Framework genutzt. Und für die Grafiken konnte ich meine Kenntnisse in den Adobe Programmen gebrauchen."
-            ],
-            hasGallery: false,
-            mockup: "",
-            myWork: [],
-            path: "https://github.com/moumitahmad/Stammbaum",
-            docu: ""
-        },
-        {
-            id: 7,
-            title: "Tangible Music",
-            description: "Webanwendung mit React",
-            team: "fünf-köpfiges Team",
-            duration: "ein Semester",
-            time: "6. Semester, Beginn 2021",
-            technologies: [
-                "Design for people with special needs", 
-                "Usertests", 
-                "Unity"
-            ],
-            image: "PortfolioPreview.svg",
-            about: [
-                "Mein Portfolio habe ich dazu genutzt mich mit React vertraut zu machen.",
-                "Dabei habe viel Wert darauf gelegt alle Components so zu konzipieren, dass diese gut wiederverwendbar sind und so wenig wie möglich Projekt spezifischen code enthalten, so dass weitere Projekte problemlos eingefügt werden können.",
-                "Um schnell ein ansehnliches Design zu erhalten habe ich Material UI als CSS Framework genutzt. Und für die Grafiken konnte ich meine Kenntnisse in den Adobe Programmen gebrauchen."
-            ],
-            hasGallery: false,
-            mockup: "",
-            myWork: [],
-            path: "https://github.com/RolimJ/TangibleMusic",
-            docu: ""
-        },
-        {
-            id: 8,
-            title: "TeaCooker",
-            description: "Ein Assitent, um immer den optimalsten Tee zu brühen",
-            team: "alleine",
-            duration: "ein Semester",
-            time: "6. Semester, Beginn 2021",
-            technologies: [
-                "Microcontroller", 
-                "Arduino",
-                "C++"
-            ],
-            image: "PortfolioPreview.svg",
-            about: [
-                "Mein Portfolio habe ich dazu genutzt mich mit React vertraut zu machen.",
-                "Dabei habe viel Wert darauf gelegt alle Components so zu konzipieren, dass diese gut wiederverwendbar sind und so wenig wie möglich Projekt spezifischen code enthalten, so dass weitere Projekte problemlos eingefügt werden können.",
-                "Um schnell ein ansehnliches Design zu erhalten habe ich Material UI als CSS Framework genutzt. Und für die Grafiken konnte ich meine Kenntnisse in den Adobe Programmen gebrauchen."
-            ],
-            hasGallery: false,
-            mockup: "",
-            myWork: [],
-            path: "https://github.com/moumitahmad/TeaCooker",
             docu: ""
         }
     ]

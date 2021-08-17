@@ -49,13 +49,10 @@ function PresentDetail({ match }) {
     return(
         <motion.div initial={{ opacity:0 }} animate={{opacity:1, duration:3 }} exit={{ opacity:0, duration:3 }}>
             <Navbar projectTitle={project.title} menuItems={menuItems} maxPixel={0}></Navbar>
-            {/* <ProjectHero project={ project }></ProjectHero> */}
             
             <div className="main-content">
                 <Container maxWidth="md">
-                    <br/>
-                    <br/>
-                    <br/>
+                    <br />
                     <ProjectDescription project={ project }></ProjectDescription>
                     <br/>
                     <br/>
@@ -71,7 +68,7 @@ function PresentDetail({ match }) {
                     { project.mockup === ""
                     ? null
                     : <Mockup project={ project }></Mockup> }
-                    { project.myWork === ""
+                    { project.myWork.length == 0
                     ? null
                     : <MyWorkSection project={ project }></MyWorkSection> }
                     <ul className="project-links">

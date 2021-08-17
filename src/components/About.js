@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 import VisibilitySensor from 'react-visibility-sensor';
 
-import meImg from '../img/profilfoto.jpg';
+import meImg from '../assets/profilfoto.jpg';
 
 
 function About() {
@@ -42,8 +42,8 @@ function About() {
         <VisibilitySensor onChange={isInView}>
         <motion.div initial="hidden" animate={inView ? "show" : "hidden"} exit="hidden" variants={variants} id="about" className="about-section">
             <h1 className="section-title">Willkommen auf meinem Portfolio!</h1>
-            <Grid container alignItems="flex-start">
-                <Grid item xs={12} md={3}>
+            <Grid container alignItems="flex-start" spacing={5}>
+                <Grid item xs={12} sm={4}>
                     <div className="align-center about-image">
                         <CardMedia
                         component="img"
@@ -54,14 +54,12 @@ function About() {
                         />
                     </div>
                 </Grid>
-                <Grid item xs={12} md={8}>
-                    <Container maxWidth="sm">
-                        <Typography variant="body1" gutterBottom  align="justify">
+                <Grid item xs={12} sm={8}>
+                    <Typography variant="body1" gutterBottom  align="justify">
                         Hier werden mehrere meiner verschiedenen Projekte präsentiert.<br />
                         Wenn Sie also gerne etwas mehr darüber erfahren wollen, welche Projekte ich in den letzten Jahren entwickelt habe und wie diese entstanden und verlaufen sind, sind Sie hier genau richtig! :) <br />
-                        Ich studiere momentan Medieninformatik an der Hochschule Bremen und besuche dort das 7. Semester. Viele dieser Projekte sind im Rahmen von Modulen an der Hochschule entstanden. Viel Spaß!
-                        </Typography>
-                    </Container>
+                        Ich studiere momentan Medieninformatik an der Hochschule Bremen und besuche dort das 7. Semester. Viele dieser Projekte sind im Rahmen von Modulen an der Hochschule entstanden. <br /> Viel Spaß!
+                    </Typography>
                 </Grid>
             </Grid>
         </motion.div>
