@@ -9,20 +9,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Link as RouterLink } from 'react-router-dom';
 
 
-const useStyles = makeStyles((theme) => ({
-    homeButton: {
-      marginRight: theme.spacing(2),
-    },
-    appBarTransparent: {
-        opacity: 1
-    },
-    appBarSolid: {
-        
-    }
-  }));
-
 
 function Navbar(props) {
+
     const MAX_MOBILE_WIDTH = 600;
     const BACKGROUND_CHANGE_POINT = props.maxPixel;
 
@@ -34,9 +23,9 @@ function Navbar(props) {
             return false;
         }
     });
-    const classes = useStyles();
+
     const [navbar, setNavbar] = useState(false);
-    console.log(windowWidth);
+    //console.log(windowWidth);
 
     const handleResize = () => {
         setWindowWidth(window.innerWidth)
@@ -58,6 +47,19 @@ function Navbar(props) {
             setNavbar(false);
         }
     }
+    
+    const useStyles = makeStyles((theme) => ({
+        homeButton: {
+        marginRight: theme.spacing(2),
+        },
+        appBarTransparent: {
+            opacity: 1
+        },
+        appBarSolid: {
+            
+        }
+    }));
+    const classes = useStyles();
 
     window.addEventListener('scroll', changeBackground);
     
@@ -66,7 +68,7 @@ function Navbar(props) {
     let hasProject = false;
     if(projectTitle != null) {
         hasProject = true;
-    } 
+    }
     
 
     return(
@@ -77,9 +79,6 @@ function Navbar(props) {
                         <Link to="/portfolio" component={RouterLink}>
                             <Typography variant={navbar ? 'subtitle1' : 'h5'}>Moumita Ahmad</Typography>
                         </Link>
-                        {/* {projectTitle != null
-                        ? <Scroller className="nav-item" activeClass="active" spy={true} smooth={true} duration={500} to="hero"><Typography color="textPrimary">{projectTitle}</Typography></Scroller>
-                        : null} */}
                     </Box>
                     {mobile 
                     ? <MobileNavbar menuItems={menuItems} hasProject={hasProject} />

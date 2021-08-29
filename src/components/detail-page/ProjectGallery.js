@@ -42,7 +42,7 @@ function ProjectGallery(props) {
 
     return(
         <div>
-            <h1 className="section-title" id="gallery">Prozess</h1>
+            <h1 className="section-title" id="gallery">Bildergalerie</h1>
             <div className="grid-container">
                 {imagesFromProject.map((image, idx) => (
                     <div className="grid-item" key={idx} onClick={ () => handleOpen(image) }>

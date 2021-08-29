@@ -6,7 +6,9 @@ function MyWorkSection(props) {
 
     return(
         <div id="my-work">
-            <h1 className="section-title">Was hab ich gemacht?</h1>
+            <br/>
+            <br/>
+            <br/>
             {project.myWork.map((item, idx) => (
                 <div key={idx}>
                     <Typography varient="body1" align="justify">{ item }</Typography>

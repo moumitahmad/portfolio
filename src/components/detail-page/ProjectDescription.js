@@ -51,7 +51,7 @@ function ProjectDescription(props) {
            <h1 className="section-title" id="description">Projekt: <strong>{ project.title }</strong></h1>
            <Grid container justifyContent="flex-start" spacing={5}>
                 <Grid item xs={12} md={6}>
-                    <div className="about-image ">
+                    <div className="about-image">
                         <Card>
                         <CardMedia
                         component="img"

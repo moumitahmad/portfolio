@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Container, Typography, Button } from '@material-ui/core';
+import { ArrowBackIos, ArrowForwardIos } from '@material-ui/icons';
 import { motion } from 'framer-motion';
 
 
@@ -85,14 +86,26 @@ function PresentDetail({ match }) {
                             }
                         </li>
                         <li>
-                            { project.id !== 3
+                            { project.id !== 4
                             ? null
                             : <Button className="link-buttons" variant="contained" color="secondary" target="_blank" rel="noopener noreferrer" href={ "/assets/project-media/dokus/" + project.doku2 }>zur HoloCubes Dokumentation</Button>
                             }
                         </li>
                     </ul>
-                    
-                    <Button className="link-buttons" variant="contained" color="secondary" rel="noopener noreferrer" href={ "/portfolio" }>weitere Projekte</Button>
+                    <ul className="project-links">
+                        { project.id === 0
+                        ? null
+                        : <li><a href={ "/portfolio/project/" + (project.id-1) }>
+                            <ArrowBackIos />Vorheriges Projekt
+                        </a></li>
+                        }
+                        { project.id === projects.length-1
+                        ? null
+                        : <li><a href={ "/portfolio/project/" + (project.id+1) }>
+                            Nächstes Projekt <ArrowForwardIos />
+                        </a></li>
+                        }
+                    </ul>
                 </Container>
             </div>
             

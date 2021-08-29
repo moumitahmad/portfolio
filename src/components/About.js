@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Grid, Typography, CardMedia } from '@material-ui/core';
+import { Grid, Typography, Card, CardMedia } from '@material-ui/core';
 import { motion } from "framer-motion";
 
 import VisibilitySensor from 'react-visibility-sensor';
@@ -14,7 +14,6 @@ function About() {
 
     function isInView() {
         setInView(true);
-        console.log("IS IN VIEW")
     }
     
     const transition = {
@@ -40,11 +39,16 @@ function About() {
 
     return(
         <VisibilitySensor onChange={isInView}>
-        <motion.div initial="hidden" animate={inView ? "show" : "hidden"} exit="hidden" variants={variants} id="about" className="about-section">
+        <motion.div initial="hidden" animate={inView ? "show" : "hidden"} exit="hidden" variants={variants} id="about">
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <h1 className="section-title">Willkommen auf meinem Portfolio!</h1>
             <Grid container alignItems="flex-start" spacing={5}>
                 <Grid item xs={12} sm={4}>
                     <div className="align-center about-image">
+                        <Card>
                         <CardMedia
                         component="img"
                         alt={ "Profilbild" }
@@ -52,6 +56,7 @@ function About() {
                         src={ meImg }
                         title={ "Profilbild" }
                         />
+                        </Card>
                     </div>
                 </Grid>
                 <Grid item xs={12} sm={8}>

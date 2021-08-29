@@ -21,7 +21,7 @@ function ContactFooter() {
         },
         {
             title: "XING",
-            path: ""
+            path: "https://www.xing.com/de"
         }
     ]
 

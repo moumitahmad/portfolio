@@ -10,9 +10,9 @@
             technologies: [
                 "C++", 
                 "SQLite", 
-                "Simple GUI Anwednung"
+                "Qt"
             ],
-            image: "PortfolioPreview.svg",
+            image: "FamilyTreePreview.svg",
             about: [
                 "Mein Portfolio habe ich dazu genutzt mich mit React vertraut zu machen.",
                 "Dabei habe viel Wert darauf gelegt alle Components so zu konzipieren, dass diese gut wiederverwendbar sind und so wenig wie möglich Projekt spezifischen code enthalten, so dass weitere Projekte problemlos eingefügt werden können.",
@@ -96,12 +96,12 @@
             team: "fünf-köpfiges Team",
             duration: "ein Semester",
             time: "6. Semester, Beginn 2021",
-            technologies: [
-                "Design for people with special needs", 
+            technologies: [ 
                 "Usertests", 
+                "besondere Bedürfnisse",
                 "Unity"
             ],
-            image: "PortfolioPreview.svg",
+            image: "TangibleMusicPreview.svg",
             about: [
                 "Mein Portfolio habe ich dazu genutzt mich mit React vertraut zu machen.",
                 "Dabei habe viel Wert darauf gelegt alle Components so zu konzipieren, dass diese gut wiederverwendbar sind und so wenig wie möglich Projekt spezifischen code enthalten, so dass weitere Projekte problemlos eingefügt werden können.",
@@ -174,7 +174,7 @@
         {
             id: 6,
             title: "TeaCooker",
-            description: "Ein Assitent, um immer den optimalsten Tee zu brühen",
+            description: "Ein Assistent, um immer den optimalsten Tee zu brühen",
             team: "alleine",
             duration: "ein Semester",
             time: "6. Semester, Beginn 2021",
@@ -218,30 +218,6 @@
                 "Auch wenn wir durch fleiß letztendlich ein gutes und vollständiges Projekt entwickeln konnten, habe ich dennoch viel über Arbeitsteilung und wie man es besser nicht machen sollte in diesem Projekt gelernt."
             ],
             path: "https://github.com/NiJoW/RisikoMNT",
-            docu: ""
-        },
-        {
-            id: 8,
-            title: "Mein Portfolio OR Design Arbeiten",
-            description: "Webanwendung mit React",
-            team: "alleine",
-            duration: "ein Semester",
-            time: "6. Semester, Beginn 2021",
-            technologies: [
-                "React", 
-                "Material UI", 
-                "Adobe Programme"
-            ],
-            image: "PortfolioPreview.svg",
-            about: [
-                "Mein Portfolio habe ich dazu genutzt mich mit React vertraut zu machen.",
-                "Dabei habe viel Wert darauf gelegt alle Components so zu konzipieren, dass diese gut wiederverwendbar sind und so wenig wie möglich Projekt spezifischen code enthalten, so dass weitere Projekte problemlos eingefügt werden können.",
-                "Um schnell ein ansehnliches Design zu erhalten habe ich Material UI als CSS Framework genutzt. Und für die Grafiken konnte ich meine Kenntnisse in den Adobe Programmen gebrauchen."
-            ],
-            hasGallery: false,
-            mockup: "",
-            myWork: [],
-            path: "https://github.com/moumitahmad/portfolio",
             docu: ""
         }
     ]
