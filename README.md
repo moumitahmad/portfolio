@@ -1,6 +1,7 @@
 # A personal Portfolio
 
 A website, which presents some of my finished projects. <br/> But it not only shows the finished product, but also insights into the development process.
+The finished project can be seen here: https://moumitahmad.github.io/portfolio
 
 ## Disclaimer
 
