@@ -76,7 +76,7 @@ function PresentDetail({ match }) {
                         <li>
                             { project.path === ""
                             ? null
-                            : <Button className="link-buttons" variant="contained" color="primary" target="_blank" rel="noopener noreferrer" href={ project.path }>zum Source Code</Button>
+                            : <Button className="link-buttons" variant="contained" color="secondary" target="_blank" rel="noopener noreferrer" href={ project.path }>zum Source Code</Button>
                             }
                         </li>
                         <li>
@@ -91,20 +91,6 @@ function PresentDetail({ match }) {
                             : <Button className="link-buttons" variant="contained" color="secondary" target="_blank" rel="noopener noreferrer" href={ "/assets/project-media/dokus/" + project.doku2 }>zur HoloCubes Dokumentation</Button>
                             }
                         </li>
-                    </ul>
-                    <ul className="project-links">
-                        { project.id === 0
-                        ? null
-                        : <li><a href={ "/portfolio/project/" + (project.id-1) }>
-                            <ArrowBackIos />Vorheriges Projekt
-                        </a></li>
-                        }
-                        { project.id === projects.length-1
-                        ? null
-                        : <li><a href={ "/portfolio/project/" + (project.id+1) }>
-                            Nächstes Projekt <ArrowForwardIos />
-                        </a></li>
-                        }
                     </ul>
                 </Container>
             </div>

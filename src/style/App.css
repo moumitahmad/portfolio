@@ -139,6 +139,11 @@ h1 {
   text-align: center;
 }
 
+.align-center-vertical {    
+  display: flex;
+  align-items: center;
+}
+
 ul {
   padding: 0;
 }

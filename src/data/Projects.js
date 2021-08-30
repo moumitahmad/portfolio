@@ -116,7 +116,7 @@
         {
             id: 4,
             title: "SmartFactory",
-            description: "Anwendung zum planen und simulieren von Fabriken in AR",
+            description: "Anwendung zum Planen und Simulieren von Fabriken in AR",
             team: "Drei köpfiges Team",
             duration: "elfköpfiges Semester",
             time: "3. & 4. Semester, 2020",
@@ -183,7 +183,7 @@
                 "Arduino",
                 "C++"
             ],
-            image: "PortfolioPreview.svg",
+            image: "TeaCookerPreview.svg",
             about: [
                 "Mein Portfolio habe ich dazu genutzt mich mit React vertraut zu machen.",
                 "Dabei habe viel Wert darauf gelegt alle Components so zu konzipieren, dass diese gut wiederverwendbar sind und so wenig wie möglich Projekt spezifischen code enthalten, so dass weitere Projekte problemlos eingefügt werden können.",

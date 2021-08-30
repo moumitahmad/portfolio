@@ -69,7 +69,7 @@ function ProjectDescription(props) {
                             <Grid item>
                             <Avatar className={classes.green}><DescriptionIcon /></Avatar>
                             </Grid>
-                            <Grid item xs>
+                            <Grid item xs className="align-center-vertical">
                                 <Typography variant="body1" component="h3">{ project.description }</Typography>
                             </Grid>
                         </Grid>
@@ -79,7 +79,7 @@ function ProjectDescription(props) {
                             <Grid item>
                             <Avatar className={classes.blue}><GroupsIcon /></Avatar>
                             </Grid>
-                            <Grid item xs>
+                            <Grid item xs className="align-center-vertical">
                                 <Typography variant="body1" component="h3">{ project.team }</Typography>
                             </Grid>
                         </Grid>
@@ -89,7 +89,7 @@ function ProjectDescription(props) {
                             <Grid item>
                             <Avatar className={classes.pink}><TimerIcon /></Avatar>
                             </Grid>
-                            <Grid item xs>
+                            <Grid item xs className="align-center-vertical">
                                 <Typography variant="body1" component="h3">{ project.duration } ({ project.time })</Typography>
                             </Grid>
                         </Grid>
@@ -99,7 +99,7 @@ function ProjectDescription(props) {
                             <Grid item>
                             <Avatar className={classes.purple}><BuildIcon /></Avatar>
                             </Grid>
-                            <Grid item xs>
+                            <Grid item xs className="align-center-vertical">
                                 <Typography variant="body1" component="h3">
                                     |&nbsp; 
                                     {project.technologies.map((tech, idx) => (
