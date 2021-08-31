@@ -151,6 +151,46 @@ const imageGallery = [
         name: "Risiko/Risiko_Screenshot_part2.png",
         description: "Ein weitere Ausschnitt der fertigen Anwendung. Die zeigen wie der Großteil des Spiels abläuft.",
         projectId: 7
+    },
+    
+    //----------------------------TEACOOKER
+    {
+        id: 23,
+        name: "TC/PCB_circutPlaning-3.jpg",
+        description: "eine grobe Konzept Plannung",
+        projectId: 6
+    },
+    {
+        id: 24,
+        name: "TC/conzetiionPreviewPic.jpg",
+        description: "Von Plannung zur Umsetzung",
+        projectId: 6
+    },
+    {
+        id: 25,
+        name: "TC/circutePic.jpg",
+        description: "Die Hardware hinter den Funktionen",
+        projectId: 6
+    },
+    
+    //----------------------------FAMILYTREE
+    {
+        id: 26,
+        name: "FT/Plannung_Wireframes.jpg",
+        description: "Konzeption des Projektes, in Form von Wireframes",
+        projectId: 0
+    },
+    {
+        id: 27,
+        name: "FT/startPreview.jpg",
+        description: "Ein Preview auf die Login und Startseite des Projektes",
+        projectId: 0
+    },
+    {
+        id: 28,
+        name: "FT/pagePreview.jpg",
+        description: "Ein Preview auf die View- und Edit-Page aus dem Bilck des Admins",
+        projectId: 0
     }
 ]
 

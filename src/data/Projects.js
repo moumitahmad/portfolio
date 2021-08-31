@@ -111,7 +111,8 @@
             mockup: "",
             myWork: [],
             path: "https://github.com/RolimJ/TangibleMusic",
-            docu: "DDM_documentation_Sattler_Lehmkuhl_Ahmad_Jacobse_Ward.pdf"
+            docu: "DDM_documentation_Sattler_Lehmkuhl_Ahmad_Jacobse_Ward.pdf",
+            demo: "https://drive.google.com/drive/u/0/folders/1DVErdCQUQjox-1C67vcjzUI6_QsQ9V4r"
         },
         {
             id: 4,
@@ -189,8 +190,8 @@
                 "Dabei habe viel Wert darauf gelegt alle Components so zu konzipieren, dass diese gut wiederverwendbar sind und so wenig wie möglich Projekt spezifischen code enthalten, so dass weitere Projekte problemlos eingefügt werden können.",
                 "Um schnell ein ansehnliches Design zu erhalten habe ich Material UI als CSS Framework genutzt. Und für die Grafiken konnte ich meine Kenntnisse in den Adobe Programmen gebrauchen."
             ],
-            hasGallery: false,
-            mockup: "",
+            hasGallery: true,
+            mockup: "TC/TeaCooker_Video.mp4",
             myWork: [],
             path: "https://github.com/moumitahmad/TeaCooker",
             docu: "MoumitaAhmad_TeaCooker_Documentation.pdf"

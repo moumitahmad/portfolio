@@ -74,6 +74,12 @@ function PresentDetail({ match }) {
                     : <MyWorkSection project={ project }></MyWorkSection> }
                     <ul className="project-links">
                         <li>
+                            { project.demo == null
+                            ? null
+                            : <Button className="link-buttons" variant="contained" color="secondary" target="_blank" rel="noopener noreferrer" href={ project.demo }>zur Demo</Button>
+                            }
+                        </li>
+                        <li>
                             { project.path === ""
                             ? null
                             : <Button className="link-buttons" variant="contained" color="secondary" target="_blank" rel="noopener noreferrer" href={ project.path }>zum Source Code</Button>
@@ -86,7 +92,7 @@ function PresentDetail({ match }) {
                             }
                         </li>
                         <li>
-                            { project.id !== 4
+                            { project.docu2 == null
                             ? null
                             : <Button className="link-buttons" variant="contained" color="secondary" target="_blank" rel="noopener noreferrer" href={ "/assets/project-media/dokus/" + project.doku2 }>zur HoloCubes Dokumentation</Button>
                             }
