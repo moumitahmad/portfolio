@@ -193,7 +193,7 @@
                 "Zusätzlich hatte ich noch den Anspruch so gut wie kein klassisches Userinterface zu benötigen."
             ],
             hasGallery: true,
-            mockup: "TC/TeaCooker_Video_2.mp4",
+            mockup: "TC/TeaCooker_Video.mp4",
             mockupVorschau: "TC/VidoVorschau.png",
             myWork: [],
             path: "https://github.com/moumitahmad/TeaCooker",
