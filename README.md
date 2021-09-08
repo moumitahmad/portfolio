@@ -11,7 +11,7 @@ Dabei habe viel Wert darauf gelegt alle Components so zu konzipieren, dass diese
 
 Um schnell ein ansehnliches Design zu erhalten habe ich Material UI als CSS Framework genutzt. Und für die Grafiken konnte ich meine Kenntnisse in den Adobe Programmen gebrauchen.
 
-## Authors
+## Author
 
 Moumita Ahmad
 (mahmad@stud.hs-bremen.de)
