@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.75fed564.chunk.css",
-    "main.js": "/portfolio/static/js/main.88add660.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.88add660.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.6f15e5d0.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.6f15e5d0.js.map",
-    "static/js/2.4d54c3f9.chunk.js": "/portfolio/static/js/2.4d54c3f9.chunk.js",
-    "static/js/2.4d54c3f9.chunk.js.map": "/portfolio/static/js/2.4d54c3f9.chunk.js.map",
-    "static/js/3.85527465.chunk.js": "/portfolio/static/js/3.85527465.chunk.js",
-    "static/js/3.85527465.chunk.js.map": "/portfolio/static/js/3.85527465.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.b98ef782.chunk.css",
+    "main.js": "/portfolio/static/js/main.56a4a32e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.56a4a32e.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.d8bef103.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.d8bef103.js.map",
+    "static/js/2.52d539f4.chunk.js": "/portfolio/static/js/2.52d539f4.chunk.js",
+    "static/js/2.52d539f4.chunk.js.map": "/portfolio/static/js/2.52d539f4.chunk.js.map",
+    "static/js/3.343cf402.chunk.js": "/portfolio/static/js/3.343cf402.chunk.js",
+    "static/js/3.343cf402.chunk.js.map": "/portfolio/static/js/3.343cf402.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.75fed564.chunk.css.map": "/portfolio/static/css/main.75fed564.chunk.css.map",
-    "static/js/2.4d54c3f9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4d54c3f9.chunk.js.LICENSE.txt",
-    "static/media/Lebenslauf_MoumitaAhmad.a0117c7c.pdf": "/portfolio/static/media/Lebenslauf_MoumitaAhmad.a0117c7c.pdf",
-    "static/media/profilfoto.1b687cb2.jpg": "/portfolio/static/media/profilfoto.1b687cb2.jpg"
+    "static/css/main.b98ef782.chunk.css.map": "/portfolio/static/css/main.b98ef782.chunk.css.map",
+    "static/js/2.52d539f4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.52d539f4.chunk.js.LICENSE.txt",
+    "static/media/Lebenslauf_MoumitaAhmad.251b9c05.pdf": "/portfolio/static/media/Lebenslauf_MoumitaAhmad.251b9c05.pdf",
+    "static/media/mePic.f1dbaaed.jpg": "/portfolio/static/media/mePic.f1dbaaed.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6f15e5d0.js",
-    "static/js/2.4d54c3f9.chunk.js",
-    "static/css/main.75fed564.chunk.css",
-    "static/js/main.88add660.chunk.js"
+    "static/js/runtime-main.d8bef103.js",
+    "static/js/2.52d539f4.chunk.js",
+    "static/css/main.b98ef782.chunk.css",
+    "static/js/main.56a4a32e.chunk.js"
   ]
 }
