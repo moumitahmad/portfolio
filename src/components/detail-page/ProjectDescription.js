@@ -47,9 +47,9 @@ function ProjectDescription(props) {
     const classes = useStyles();
 
     return(
-        <div id="describtion">
+        <div id="description">
            <h1 className="section-title" id="description">Projekt: <strong>{ project.title }</strong></h1>
-           <Grid container justifyContent="flex-start" spacing={5}>
+           <Grid container spacing={5}>  {/* TODO: justifyContent="flex-start" */}
                 <Grid item xs={12} md={6}>
                     <div className="about-image">
                         <Card>

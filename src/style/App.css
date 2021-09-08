@@ -62,12 +62,12 @@ h1 {
 
 .nav-item:hover {
   cursor: pointer;
-  color: #d500f9;
+  color: #3d5afe;
   text-decoration: none;
 }
 
 .nav-item.active {
-  color: #d500f9;
+  color: #3d5afe;
 }
 
 .navbar.active {
@@ -179,7 +179,7 @@ h2 {
 /*---------------------FOOTER----------------------*/
 
 .footer {
-  background-image: linear-gradient(lightgrey, #ffffff);
+  background-image: linear-gradient(#E0E0E0, #FFFFFF);
   padding-top: 5%;
   padding-left: 10%;
   padding-right: 10%;
@@ -204,7 +204,7 @@ h2 {
 .contact-button:hover {
   /* font-family: hwt-republic-gothic-solid !important; */
   background-color: transparent !important;
-  color: #d500f9;
+  color: #3d5afe;
 }
 
 .grid-item-center {

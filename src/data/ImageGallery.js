@@ -27,19 +27,19 @@ const imageGallery = [
     {
         id: 4,
         name: "FS/FS_Tugende.jpg",
-        description: "Die Seite auf der die Tugenden präsentiert werden und von Tugendhaften abgeschlossen werden können.",
+        description: "Die Seite, auf der die Tugenden präsentiert werden und von Tugendhaften abgeschlossen werden können.",
         projectId: 1
     },
     {
         id: 5,
         name: "FS/FS_Dienste.jpg",
-        description: "Die Seite auf der die Dienste der Tugendhaften präsentiert werden und von Suchenden gebucht werden können.",
+        description: "Die Seite, auf der die Dienste der Tugendhaften präsentiert werden und von Suchenden gebucht werden können.",
         projectId: 1
     },
     {
         id: 6,
         name: "FS/FS_Bonusprogramme.jpg",
-        description: "Die Seite auf der die Bonusprogramme präsentiert werden, so dass die Tugendhaften entsprechende Tugenden erfüllen können und auf Belohnungen hinarbeiten können.",
+        description: "Die Seite, auf der die Bonusprogramme präsentiert werden, sodass die Tugendhaften entsprechende Tugenden erfüllen können und auf Belohnungen hinarbeiten können.",
         projectId: 1
     },
     
@@ -79,37 +79,37 @@ const imageGallery = [
     {
         id: 12,
         name: "FL/useCaseDiagramm.PNG",
-        description: "Das Use Case Diagramm beschreibt die groben Functionen der Software und wie die einzelnen Instanzen zusammen arbeiten.",
+        description: "Das Use Case Diagramm beschreibt die groben Funktionen der Software und wie die einzelnen Instanzen zusammen arbeiten.",
         projectId: 5
     },
     {
         id: 13,
         name: "FL/klassendiagramm.PNG",
-        description: "Das Klassendiagramm beschreibt welche Klassen für welche Aufgaben zuständig sind und wie diese untereinander zusammen arbeiten.",
+        description: "Das Klassendiagramm beschreibt, welche Klassen für welche Aufgaben zuständig sind und wie diese untereinander zusammen arbeiten.",
         projectId: 5
     },
     {
         id: 14,
         name: "FL/softwareArchitektur_part1.PNG",
-        description: "Die Softwarearchitektur beschreibt die Klassen und deren Zusammenarbeit detailreicher und bestimmt Interfaces.",
+        description: "Die Softwarearchitektur beschreibt, die Klassen und deren Zusammenarbeit detailreicher und bestimmt Interfaces.",
         projectId: 5
     },
     {
         id: 15,
         name: "FL/softwareArchitektur_part2.PNG",
-        description: "Auch eine klare Einteilung der Aufgabenbereiche war sehr wichtig. Auch interessant ist die Benutzerklasse, die keine Schnittstelle auf anderen Klassen der Software benötigt und so auch in anderen Projekten eingesetzt werden könnte.",
+        description: "Eine klare Einteilung der Aufgabenbereiche war sehr wichtig. Interessant dabei ist die Benutzerklasse, die keine Schnittstelle auf anderen Klassen der Software benötigt und so auch in anderen Projekten eingesetzt werden könnte.",
         projectId: 5
     },
     {
         id: 16,
         name: "FL/SD_BenutzerEinladen_part1.PNG",
-        description: "Das Sequenz Diagramm beschreibt die Interaktion der Objekte während des UseCases: Benutzer einladen.",
+        description: "Das Sequenz-Diagramm beschreibt die Interaktion der Objekte während eines Use Cases: Benutzer einladen.",
         projectId: 5
     },
     {
         id: 17,
         name: "FL/SD_BenutzerEinladen_part2.PNG",
-        description: " Diese Funktion wird benötigt wenn ein League erstellt wird und Gegenspieler eingeladen werden.",
+        description: "Diese Funktion wird benötigt, wenn ein League erstellt wird und Gegenspieler eingeladen werden.",
         projectId: 5
     },
     {
@@ -129,7 +129,7 @@ const imageGallery = [
     {
         id: 20,
         name: "SF/HoloCubesApplication.png",
-        description: "Dies sind Screenshots, aus der Sicht der Hololens, der enstandene Anwedung aus dem ersten Semester",
+        description: "Dies sind Screenshots, aus der Sicht der HoloLens, der entstandene Anwendung aus dem ersten Semester",
         projectId: 4
     },
     
@@ -156,13 +156,13 @@ const imageGallery = [
     //----------------------------TEACOOKER
     {
         id: 23,
-        name: "TC/PCB_circutPlaning-3.jpg",
+        name: "TC/Planing.jpg",
         description: "eine grobe Konzept Plannung",
         projectId: 6
     },
     {
         id: 24,
-        name: "TC/conzetiionPreviewPic.jpg",
+        name: "TC/conzetiionPic.jpg",
         description: "Von Plannung zur Umsetzung",
         projectId: 6
     },

@@ -3,8 +3,9 @@ import React, { useState, useEffect } from 'react';
 import '../style/App.css';
 import DesktopNavbar from './DesktopNavbar';
 import MobileNavbar from './MobileNavbar';
+import logoSVG from '../assets/logoBlau.png'
 
-import { AppBar, Toolbar, Typography, Box, Link } from '@material-ui/core';
+import { AppBar, Toolbar, Box, Link, Icon } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { Link as RouterLink } from 'react-router-dom';
 
@@ -25,7 +26,7 @@ function Navbar(props) {
     });
 
     const [navbar, setNavbar] = useState(false);
-    //console.log(windowWidth);
+    console.log(windowWidth);
 
     const handleResize = () => {
         setWindowWidth(window.innerWidth)
@@ -77,7 +78,10 @@ function Navbar(props) {
                 <Toolbar>
                     <Box className="nav-logo">
                         <Link to="/portfolio" component={RouterLink}>
-                            <Typography variant={navbar ? 'subtitle1' : 'h5'}>Moumita Ahmad</Typography>
+                            <Icon fontSize="large">
+                                <img src={logoSVG} height="100%" alt="logo"/>
+                            </Icon>
+                            {/* <Typography variant={navbar ? 'subtitle1' : 'h5'}>Moumita Ahmad</Typography> */}
                         </Link>
                     </Box>
                     {mobile 

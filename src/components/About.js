@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 import VisibilitySensor from 'react-visibility-sensor';
 
-import meImg from '../assets/profilfoto.jpg';
+import meImg from '../assets/mePic.jpg';
 
 
 function About() {
@@ -49,21 +49,21 @@ function About() {
                 <Grid item xs={12} sm={4}>
                     <div className="align-center about-image">
                         <Card>
-                        <CardMedia
-                        component="img"
-                        alt={ "Profilbild" }
-                        height="auto"
-                        src={ meImg }
-                        title={ "Profilbild" }
-                        />
+                            <CardMedia
+                            component="img"
+                            alt={ "Profilbild" }
+                            height="auto"
+                            src={ meImg }
+                            title={ "Profilbild" }
+                            />
                         </Card>
                     </div>
                 </Grid>
                 <Grid item xs={12} sm={8}>
                     <Typography variant="body1" gutterBottom  align="justify">
                         Hier werden mehrere meiner verschiedenen Projekte präsentiert.<br />
-                        Wenn Sie also gerne etwas mehr darüber erfahren wollen, welche Projekte ich in den letzten Jahren entwickelt habe und wie diese entstanden und verlaufen sind, sind Sie hier genau richtig! :) <br />
-                        Ich studiere momentan Medieninformatik an der Hochschule Bremen und besuche dort das 7. Semester. Viele dieser Projekte sind im Rahmen von Modulen an der Hochschule entstanden. <br /> Viel Spaß!
+                        Wenn Sie also gerne etwas mehr darüber erfahren wollen, welche Projekte ich in den letzten Jahren entwickelt habe und wie diese entstanden und verlaufen sind, sind Sie hier genau richtig! <br />
+                        Momentan besuche ich das 7. Semester des internationalen Studiengangs Medieninformatik an der Hochschule Bremen. Viele dieser Projekte sind im Rahmen von Modulen an der Hochschule entstanden. <br /> Viel Spaß! :)
                     </Typography>
                 </Grid>
             </Grid>
