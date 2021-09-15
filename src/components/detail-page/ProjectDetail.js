@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { Container, Typography, Button } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 import { motion } from 'framer-motion';
-
 
 import '../../style/App.css';
 import projects from '../../data/Projects';
@@ -12,6 +12,21 @@ import ProjectGallery from './ProjectGallery';
 import Footer from '../ContactFooter';
 import MyWorkSection from './MyWorkSection';
 import Mockup from './Mockup';
+
+
+const useStyles = makeStyles((theme) => ({
+    demoButton: {
+        color: "black",
+        backgroundColor: "#8bc34a",
+        "&:hover": {
+          backgroundColor: "#7cb342",
+          "@media (hover: none)": {
+            backgroundColor: "#8bc34a"
+          }
+        }
+    },
+  }));
+
 
 function PresentDetail({ match }) {
     const project = projects[match.params.id];
@@ -45,6 +60,8 @@ function PresentDetail({ match }) {
             path: "contact-footer"
         }
     )
+
+    const classes = useStyles();
     
     return(
         <motion.div initial={{ opacity:0 }} animate={{opacity:1, duration:3 }} exit={{ opacity:0, duration:3 }}>
@@ -75,7 +92,7 @@ function PresentDetail({ match }) {
                         <li>
                             { project.demo == null
                             ? null
-                            : <Button className="link-buttons" variant="contained" color="secondary" target="_blank" rel="noopener noreferrer" href={ project.demo }>zur Demo</Button>
+                            : <Button className={ classes.demoButton } variant="contained" color="success" target="_blank" rel="noopener noreferrer" href={ project.demo }>zur Demo</Button>
                             }
                         </li>
                         <li>
@@ -87,13 +104,13 @@ function PresentDetail({ match }) {
                         <li>
                             { project.docu === ""
                             ? null
-                            : <Button className="link-buttons" variant="contained" color="secondary" target="_blank" rel="noopener noreferrer" href={ "/portfolio/assets/project-media/dokus/" + project.docu }>zur Dokumentation</Button>
+                            : <Button className="link-buttons" variant="contained" color="primary" target="_blank" rel="noopener noreferrer" href={ "/portfolio/assets/project-media/dokus/" + project.docu }>zur Dokumentation</Button>
                             }
                         </li>
                         <li>
                             { project.docu2 == null
                             ? null
-                            : <Button className="link-buttons" variant="contained" color="secondary" target="_blank" rel="noopener noreferrer" href={ "/potfolio/assets/project-media/dokus/" + project.docu2 }>zur HoloCubes Dokumentation</Button>
+                            : <Button className="link-buttons" variant="contained" color="primary" target="_blank" rel="noopener noreferrer" href={ "/potfolio/assets/project-media/dokus/" + project.docu2 }>zur HoloCubes Dokumentation</Button>
                             }
                         </li>
                     </ul>

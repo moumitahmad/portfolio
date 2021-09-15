@@ -19,10 +19,10 @@ function ContactFooter() {
             title: "LINKEDIN",
             path: "https://de.linkedin.com/in/moumita-ahmad-279b2a1b4"
         },
-        {
+        /* {
             title: "XING",
             path: "https://www.xing.com/de"
-        }
+        } */
     ]
 
 

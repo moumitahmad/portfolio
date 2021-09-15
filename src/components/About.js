@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 import VisibilitySensor from 'react-visibility-sensor';
 
-import meImg from '../assets/mePic.jpg';
+import meImg from '../assets/mePicColor.jpg';
 
 
 function About() {
@@ -63,7 +63,7 @@ function About() {
                     <Typography variant="body1" gutterBottom  align="justify">
                         Hier werden mehrere meiner verschiedenen Projekte präsentiert.<br />
                         Wenn Sie also gerne etwas mehr darüber erfahren wollen, welche Projekte ich in den letzten Jahren entwickelt habe und wie diese entstanden und verlaufen sind, sind Sie hier genau richtig! <br />
-                        Momentan besuche ich das 7. Semester des internationalen Studiengangs Medieninformatik an der Hochschule Bremen. Viele dieser Projekte sind im Rahmen von Modulen an der Hochschule entstanden. <br /> Viel Spaß! :)
+                        Momentan besuche ich das siebten Semester des internationalen Studiengangs Medieninformatik an der Hochschule Bremen. Viele dieser Projekte sind im Rahmen von Modulen an der Hochschule entstanden. <br /> Viel Spaß :)
                     </Typography>
                 </Grid>
             </Grid>

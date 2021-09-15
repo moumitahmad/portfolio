@@ -191,6 +191,20 @@ const imageGallery = [
         name: "FT/pagePreview.jpg",
         description: "Ein Preview auf die View- und Edit-Page aus dem Bilck des Admins",
         projectId: 0
+    },
+    
+    //----------------------------TANGIBLE MUSIC
+    {
+        id: 29,
+        name: "TM/Persona.jpg",
+        description: "Um dieses Projekt gezielter umsetzen zu können, haben wir eine Persona erstellt",
+        projectId: 3
+    },
+    {
+        id: 30,
+        name: "TM/KonzeptZurDemo.jpg",
+        description: "Von Konzeption zur prototypischen Umsetzung",
+        projectId: 3
     }
 ]
 

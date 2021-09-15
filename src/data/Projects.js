@@ -86,13 +86,13 @@
             myWork: [
                 "Wir habe dieses Projekt zu dritt entwickelt, wobei wir alle viel an der Konzeption und den Tests gearbeitet haben. Doch im Verlauf des Projektes habe ich mich vorrangig auf den Prototyp in AR konzentriert."
             ],
-            path: "",
+            path: "https://github.com/moumitahmad/hciProject",
             docu: ""
         },
         {
             id: 3,
             title: "Tangible Music",
-            description: "Webanwendung mit React",
+            description: "Musik fühlbar gestalten, entwickelt für gehörlose Menschen",
             team: "fünf-köpfiges Team",
             duration: "ein Semester",
             time: "6. Semester, Beginn 2021",
@@ -104,14 +104,18 @@
             image: "TM/TangibleMusicPreview.svg",
             about: [
                 "Dieses Projekt ist im Rahmen des Moduls 'Design Media for People with Special Needs' entstanden. Dieses Modul diente dazu, sensibler für Probleme von Menschen mit besonderen Bedürfnissen zu werden und im Gespräch mit ihnen etwas zu entwickeln.",
-                "Wir hatten uns in diesem Rahmen dazu entschieden, uns auf taube Menschen zu spezialisieren und zu erforschen, ob es mögliche wäre Musik durch den Tastsinn anders wahrnehmbar zu machen."
+                "Wir hatten uns in diesem Rahmen dazu entschieden, uns auf gehörlose Menschen zu spezialisieren und zu erforschen, ob es mögliche wäre Musik durch den Tastsinn anders wahrnehmbar zu machen.",
+                "Daraus entstand die Idee Musik in Vibrationen umzuwandeln, wodurch auch gehörlose Menschen die Möglichkeit gegeben werden soll Musik zu 'hören'.",
+                "Oder auch gehörlosen Tänzern soll damit eine Alternative zum Erfühlen von Rhythmus gegeben werden."
             ],
-            hasGallery: false,
+            hasGallery: true,
             mockup: "",
             myWork: [
-                "Dieses Projekt diente für uns mehr als Studie von tastbarer Musik, sowas am Ende zwar kein produktionsreifer Prototyp entstand, aber Ergebnisse, die darauf schließen lassen, dass es sich lohnen könnte, sich damit noch einmal intensiver zu beschäftigen."
+                "Dieses Projekt diente für uns mehr als Studie von tastbarer Musik, sodass am Ende zwar kein produktionsreifer Prototyp entstand, aber Ergebnisse, die darauf schließen lassen, dass es sich lohnen könnte, sich damit noch einmal intensiver zu beschäftigen.",
+                <br/>,
+                "Die folgende Demo kann nur auf einem Android Handy getested werden."
             ],
-            path: "https://github.com/RolimJ/TangibleMusic",
+            path: "",
             docu: "DDM_documentation_Sattler_Lehmkuhl_Ahmad_Jacobse_Ward.pdf",
             demo: "https://drive.google.com/drive/u/0/folders/1DVErdCQUQjox-1C67vcjzUI6_QsQ9V4r"
         },
@@ -145,7 +149,7 @@
                 <br />,
                 "Im zweiten Semester habe ich größtenteils an dem User Interface, der Steuerung mit Tangibles, sowie ein bisschen an der Persistent gearbeitet."
             ],
-            path: "https://github.com/RolimJ/MixedReality",
+            path: "",
             docu: "SmartfactoryDokumentation.pdf",
             docu2: "MixedRealityDokumentation_Semester1.pdf"
         },
