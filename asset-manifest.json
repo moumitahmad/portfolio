@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.65daf1c9.chunk.css",
-    "main.js": "/portfolio/static/js/main.3dbaa716.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3dbaa716.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.66dc932f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.66dc932f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.d8bef103.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.d8bef103.js.map",
     "static/js/2.fd256c91.chunk.js": "/portfolio/static/js/2.fd256c91.chunk.js",
@@ -12,13 +12,13 @@
     "index.html": "/portfolio/index.html",
     "static/css/main.65daf1c9.chunk.css.map": "/portfolio/static/css/main.65daf1c9.chunk.css.map",
     "static/js/2.fd256c91.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fd256c91.chunk.js.LICENSE.txt",
-    "static/media/Lebenslauf_MoumitaAhmad.8f4c99fe.pdf": "/portfolio/static/media/Lebenslauf_MoumitaAhmad.8f4c99fe.pdf",
+    "static/media/Lebenslauf_MoumitaAhmad.ef57151b.pdf": "/portfolio/static/media/Lebenslauf_MoumitaAhmad.ef57151b.pdf",
     "static/media/mePicColor.88a424cf.jpg": "/portfolio/static/media/mePicColor.88a424cf.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d8bef103.js",
     "static/js/2.fd256c91.chunk.js",
     "static/css/main.65daf1c9.chunk.css",
-    "static/js/main.3dbaa716.chunk.js"
+    "static/js/main.66dc932f.chunk.js"
   ]
 }
