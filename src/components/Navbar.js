@@ -26,7 +26,6 @@ function Navbar(props) {
     });
 
     const [navbar, setNavbar] = useState(false);
-    console.log(windowWidth);
 
     const handleResize = () => {
         setWindowWidth(window.innerWidth)

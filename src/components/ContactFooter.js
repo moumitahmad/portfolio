@@ -30,35 +30,35 @@ function ContactFooter() {
         <div className="footer" id="contact-footer">
             <div className="main-content">
             <Container max-width="md">
-           <Grid container alignItems="flex-start">
-                <Grid item xs={12} md={5}>
-                    <Typography gutterBottom variant="h5" component="h2" color="primary">
-                        Hier bin ich zu erreichen!
-                    </Typography>
-                    <Grid container direction="column" justify="flex-start" alignItems="flex-start">
-                    {contactItems.map((item, idx) => (
-                        <Grid item className="contact-item" key={idx}>
-                            <Button target="_blank" rel="noopener noreferrer" href={item.path} className="contact-button">{item.title}</Button>        
+                <Grid container alignItems="flex-start">
+                    <Grid item xs={12} md={5}>
+                        <Typography gutterBottom variant="h5" component="h2" color="primary">
+                            Hier bin ich zu erreichen!
+                        </Typography>
+                        <Grid container direction="column" justify="flex-start" alignItems="flex-start">
+                        {contactItems.map((item, idx) => (
+                            <Grid item className="contact-item" key={idx}>
+                                <Button target="_blank" rel="noopener noreferrer" href={item.path} className="contact-button">{item.title}</Button>        
+                            </Grid>
+                        ))}
                         </Grid>
-                    ))}
+                    </Grid>
+                    <Grid item xs={1} md={3}>
+                    </Grid>
+                    <Grid item xs={12} md={4}>
+                        <Box className="align-right">
+                            <Typography gutterBottom variant="h5" component="h2" color="primary">
+                                Downloads
+                            </Typography>
+                            <Button target="_blank" rel="noopener noreferrer" href={cv_path} className="contact-button">Lebenslauf</Button>
+                        </Box>
                     </Grid>
                 </Grid>
-                <Grid item xs={1} md={3}>
-                </Grid>
-                <Grid item xs={12} md={4}>
-                    <Box  className="align-right">
-                    <Typography gutterBottom variant="h5" component="h2" color="primary">
-                        Downloads
-                    </Typography>
-                        <Button target="_blank" rel="noopener noreferrer" href={cv_path} className="contact-button">Lebenslauf</Button>
-                    </Box>
-                </Grid>
-            </Grid>
-            <br/>
-            <br/>
-            <Typography gutterBottom variant="subtitle1" className="oswald align-center">
-                &copy; 2021 Moumita Ahmad
-            </Typography>
+                <br/>
+                <br/>
+                <Typography gutterBottom variant="subtitle1" className="oswald align-center">
+                    &copy; 2021 Moumita Ahmad
+                </Typography>
             </Container>
             </div>
         </div>

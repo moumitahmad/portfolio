@@ -29,7 +29,7 @@ function Home() {
   ]
 
   return (
-    <motion.div initial={{ opacity:1 }} animate={{ opacity:1, duration:3 }} exit={{ opacity:0, duration:3 }}>
+    <motion.div initial={{ opacity:0 }} animate={{opacity:1, duration:3 }} exit={{ opacity:0, duration:3 }}>
       <Navbar projectTitle={null} menuTitle={menuTitle} menuItems={menuItems} maxPixel={80}></Navbar>
       {/* <Hero></Hero> */}
       <MainContent className="main"></MainContent>

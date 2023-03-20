@@ -65,6 +65,9 @@ function PresentDetail({ match }) {
     
     return(
         <motion.div initial={{ opacity:0 }} animate={{opacity:1, duration:3 }} exit={{ opacity:0, duration:3 }}>
+        <br/>
+        <br/>
+        <br/>
             <Navbar projectTitle={project.title} menuItems={menuItems} maxPixel={0}></Navbar>
             
             <div className="main-content">

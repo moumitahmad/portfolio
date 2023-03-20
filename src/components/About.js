@@ -1,45 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Grid, Typography, Card, CardMedia } from '@material-ui/core';
-import { motion } from "framer-motion";
-
-import VisibilitySensor from 'react-visibility-sensor';
 
 import meImg from '../assets/mePicColor.jpg';
 
 
 function About() {
-    // scroll animation with framer motion
-
-    const [inView, setInView] = useState(false);
-
-    function isInView() {
-        setInView(true);
-    }
-    
-    const transition = {
-        duration: 0.4,
-        delay: 0.2,
-        ease: "easeInOut"
-    };
-
-    const variants = {
-        hidden: {
-            y:200,
-            scale: 1,
-            opacity: 0,
-            transition
-        },
-        show: {
-            y:0,
-            scale: 1,
-            opacity: 1,
-            transition
-        }
-    };
 
     return(
-        <VisibilitySensor onChange={isInView}>
-        <motion.div initial="hidden" animate={inView ? "show" : "hidden"} exit="hidden" variants={variants} id="about">
+        <div>
             <br/>
             <br/>
             <br/>
@@ -67,8 +35,7 @@ function About() {
                     </Typography>
                 </Grid>
             </Grid>
-        </motion.div>
-        </VisibilitySensor>
+        </div>
     )
 }
 

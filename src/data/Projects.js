@@ -34,7 +34,7 @@
             technologies: [
                 "Angular", 
                 "Database",
-                "Bulma"
+                "Node.js"
             ],
             image: "FS/FSPreview.svg",
             about: [
