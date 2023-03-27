@@ -52,7 +52,7 @@ function ProjectDescription(props) {
                         component="img"
                         alt={ project.image }
                         height="320"
-                        src={"/project-media/" + project.image} // /portfolio/assets
+                        src={"/portfolio/assets/project-media/" + project.image}
                         title={ project.title + "_preview" }
                         />
                         </Card>

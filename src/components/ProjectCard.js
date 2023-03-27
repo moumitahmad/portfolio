@@ -26,7 +26,7 @@ function ProjectCard(props) {
                 component="img"
                 alt={ project.image }
                 height="240"
-                src={"/project-media/" + project.image} // /portfolio/assets
+                src={"/portfolio/assets/project-media/" + project.image}
                 title={ project.title + "_preview" }
               />
             </motion.div>

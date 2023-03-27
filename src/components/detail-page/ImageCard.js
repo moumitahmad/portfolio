@@ -22,7 +22,7 @@ function ImageCard(props) {
                 component="img"
                 alt={ image.name }
                 height="150"
-                src={"/project-media/" + image.name} // /portfolio/assets
+                src={"/portfolio/assets/project-media/" + image.name} 
                 title={image.name}
                 />
                 <CardHeader
