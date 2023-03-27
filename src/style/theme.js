@@ -1,7 +1,16 @@
-import { createMuiTheme } from '@material-ui/core/styles';
-import { indigo, lightGreen, amber } from '@material-ui/core/colors';
+import { indigo, lightGreen, amber } from '@mui/material/colors';
+import { createTheme } from '@mui/material/styles';
 
-const theme = createMuiTheme({
+const theme = createTheme({
+    components: {
+        MuiContainer: {
+            styleOverrides: {
+                root: {
+                    maxWidth: 960
+                }
+            }
+        }
+    },
     palette: {
         primary: indigo,
         secondary: amber,

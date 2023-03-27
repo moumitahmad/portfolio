@@ -2,7 +2,7 @@ import '../style/App.css';
 
 import profilImg from '../img/profilPic.png';
 
-import { Typography, Grid, Box } from '@material-ui/core';
+import { Typography, Grid, Box } from '@mui/material';
 import { motion } from 'framer-motion'; 
 
 

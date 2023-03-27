@@ -1,7 +1,7 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 
-import { Container, Typography, Button } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
+import { Container, Typography, Button } from '@mui/material';
 import { motion } from 'framer-motion';
 
 import '../../style/App.css';
@@ -14,7 +14,7 @@ import MyWorkSection from './MyWorkSection';
 import Mockup from './Mockup';
 
 
-const useStyles = makeStyles((theme) => ({
+const classes = {
     demoButton: {
         color: "black",
         backgroundColor: "#8bc34a",
@@ -25,11 +25,13 @@ const useStyles = makeStyles((theme) => ({
           }
         }
     },
-  }));
+  }
 
 
 function PresentDetail({ match }) {
-    const project = projects[match.params.id];
+    let { id } = useParams();
+    const project = projects[id];
+    console.log(project);
     let menuItems = [
         {
             title: "Infos",
@@ -60,15 +62,13 @@ function PresentDetail({ match }) {
             path: "contact-footer"
         }
     )
-
-    const classes = useStyles();
     
     return(
         <motion.div initial={{ opacity:0 }} animate={{opacity:1, duration:3 }} exit={{ opacity:0, duration:3 }}>
         <br/>
         <br/>
         <br/>
-            <Navbar projectTitle={project.title} menuItems={menuItems} maxPixel={0}></Navbar>
+            <Navbar projectTitle={id.title} menuItems={menuItems} maxPixel={0}></Navbar>
             
             <div className="main-content">
                 <Container maxWidth="md">
@@ -95,7 +95,7 @@ function PresentDetail({ match }) {
                         <li>
                             { project.demo == null
                             ? null
-                            : <Button className={ classes.demoButton } variant="contained" color="success" target="_blank" rel="noopener noreferrer" href={ project.demo }>zur Demo</Button>
+                            : <Button sx={classes.demoButton} variant="contained" color="success" target="_blank" rel="noopener noreferrer" href={ project.demo }>zur Demo</Button>
                             }
                         </li>
                         <li>
@@ -107,7 +107,7 @@ function PresentDetail({ match }) {
                         <li>
                             { project.docu === ""
                             ? null
-                            : <Button className="link-buttons" variant="contained" color="primary" target="_blank" rel="noopener noreferrer" href={ "/portfolio/assets/project-media/dokus/" + project.docu }>zur Dokumentation</Button>
+                            : <Button className="link-buttons" variant="contained" color="primary" target="_blank" rel="noopener noreferrer" href={ "/project-media/dokus/" + project.docu }>zur Dokumentation</Button> /* /portfolio/assets */
                             }
                         </li>
                         <li>

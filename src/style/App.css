@@ -169,7 +169,7 @@ h2 {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   /* row-gap: 2%;
   column-gap: 3%; */
 }
@@ -202,17 +202,15 @@ h2 {
 }
 
 .contact-button {
-  /* text-align: center; 
-  font-family: oswald !important;*/
   font-weight: 400 !important;
   font-style: normal !important;
   padding: 0 !important;
+  color: black !important;
 }
 
 .contact-button:hover {
-  /* font-family: hwt-republic-gothic-solid !important; */
   background-color: transparent !important;
-  color: #3d5afe;
+  color: #3d5afe !important;
 }
 
 .grid-item-center {

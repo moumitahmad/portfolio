@@ -5,8 +5,7 @@ import DesktopNavbar from './DesktopNavbar';
 import MobileNavbar from './MobileNavbar';
 import logoSVG from '../assets/logoBlau.png'
 
-import { AppBar, Toolbar, Box, Link, Icon } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
+import { AppBar, Toolbar, Box, Link, Icon } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
 
 
@@ -29,7 +28,7 @@ function Navbar(props) {
 
     const handleResize = () => {
         setWindowWidth(window.innerWidth)
-        if(window.innerWidth <= MAX_MOBILE_WIDTH) {
+        if(windowWidth <= MAX_MOBILE_WIDTH) {
             setMobile(true);
         } else {
             setMobile(false);
@@ -47,19 +46,6 @@ function Navbar(props) {
             setNavbar(false);
         }
     }
-    
-    const useStyles = makeStyles((theme) => ({
-        homeButton: {
-        marginRight: theme.spacing(2),
-        },
-        appBarTransparent: {
-            opacity: 1
-        },
-        appBarSolid: {
-            
-        }
-    }));
-    const classes = useStyles();
 
     window.addEventListener('scroll', changeBackground);
     
@@ -72,7 +58,7 @@ function Navbar(props) {
     
 
     return(
-        <div className={classes.root}>
+        <div>
             <AppBar color="transparent" elevation={0} position="fixed" className={ navbar ? 'navbar active' : 'navbar' }>
                 <Toolbar>
                     <Box className="nav-logo">

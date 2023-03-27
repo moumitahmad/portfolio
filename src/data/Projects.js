@@ -3,7 +3,7 @@
         {
             id: 0,
             title: "FamilyTree",
-            description: "Anwedung zum Speichern und Visuallisieren von Familenhistorien.",
+            description: "Anwedung zum Speichern und Visuallisieren von Familenhistorien",
             team: "Drei-köpfiges Team",
             duration: "ein Semester",
             time: "6. Semester, Beginn 2021",
@@ -14,13 +14,14 @@
             ],
             image: "FT/FamilyTreePreview.svg",
             about: [
-                "Familienbeziehungen visualisieren und diese durch eine einfache GUI von verschieden Nutzer bearbeiten lassen. Dies waren die wesentlichen Ansprüche an dieses Projekt.",
+                "Dieses Projekt enstand im Modul 'C++ - für Java-Kenner'",
+                "Der wesentliche Anspruch dieses Projektes war es Familienbeziehungen visualisieren und diese durch eine einfache GUI von verschieden Nutzer bearbeiten lassen.",
                 "Dabei ist dieses Projekt in meinem sechsten Semester entstanden und diente dazu C++ etwas besser kennenzulernen.",
                 "Umgesetzt wurde die Idee in Qt mit einer SQLite Datenbank."
             ],
             hasGallery: true,
             mockup: "",
-            myWork: [],
+            myWork: "",
             path: "https://github.com/moumitahmad/Stammbaum",
             docu: ""
         },
@@ -57,10 +58,37 @@
                 "Doch ein paar Features habe ich auch komplett alleine implementiert, diese waren: die Such und Filter-Funktionen, sowie ein Großteil der Datendarstellung für Tugenden, Dienste und Bonusprogramme."
             ],
             path: "https://github.com/NiJoW/NiJoW.github.io",
-            doku: "Doku_Schuster_Ahmad_Wennesheimer_DBWeb_FantasyScore.pdf"
+            docu: "Doku_Schuster_Ahmad_Wennesheimer_DBWeb_FantasyScore.pdf"
         },
         {
             id: 2,
+            title: "LeftLovers",
+            description: "App zum Finden von neuen Rezepten mit alternativem Suchvorgang",
+            team: "Drei köpfiges Team",
+            duration: "ein Semester",
+            time: "7. Semester, Beginn 2022",
+            technologies: [
+                "App Entwicklung",
+                "Android Studio", 
+                "Java"
+            ],
+            image: "LL/LeftLoversPreview.svg",
+            about: [
+                "Dieses Projekt entstand im Modul 'Mobile Computing' und wurde auf english unterrichtet.",
+                "Ich hab dieses Modul genutzt, um einen Einblick in die App Entwicklung zu erhalten und Android Studio kennenzulernen.",
+                <br />,
+                "Jeder stand schonmal vor dem Problem, was koche ich heute abend und selbst nach dem xten mal Kühlschrank öffnen, scheint immernoch nichts richtig vorhanden zu sein. Unsere App hat den Anspruch für dieses Problem eine Lösung zu finden.",
+                "Die App ist in zwei Bereichen aufgeteilt. In einem Bereich ist es möglich, die Inhalte des eigenen Kühlschrankes einzutragen und der Andere besteht aus der Suche nach neuen Rezepten, dort kann dann gezielt nach Rezepten mit denen im Kühlschrak eingetragenen Lebensmittel gesucht werden. Ein paar Filter, wie Allergien oder Vorlieben, können natürlich auch gesetzt werden.",
+                "Die App hat sich für mich als erstaunlich praktisch erwiesen, da die geutzte Rezept Bibliothek viele interessante Rezepte beihnhaltet, die sonst durch eine Suche über andere Apps oder Suchmaschinen nicht schnell sichtbar sind."
+            ],
+            hasGallery: true,
+            mockup: "",
+            myWork: "",
+            path: "https://github.com/moumitahmad/LeftLovers",
+            docu: "PraesentationLeftLovers.pdf"
+        },
+        {
+            id: 3,
             title: "BuildAR",
             description: "Entwicklung einer AR Anwendung mit Hilfe von User-Feedback",
             team: "Drei köpfiges Team",
@@ -90,7 +118,7 @@
             docu: ""
         },
         {
-            id: 3,
+            id: 4,
             title: "Tangible Music",
             description: "Musik fühlbar gestalten, entwickelt für gehörlose Menschen",
             team: "fünf-köpfiges Team",
@@ -120,7 +148,7 @@
             demo: "https://drive.google.com/drive/u/0/folders/1DVErdCQUQjox-1C67vcjzUI6_QsQ9V4r"
         },
         {
-            id: 4,
+            id: 5,
             title: "SmartFactory",
             description: "Anwendung zum Planen und Simulieren von Fabriken in AR",
             team: "Drei köpfiges Team",
@@ -154,7 +182,7 @@
             docu2: "MixedRealityDokumentation_Semester1.pdf"
         },
         {
-            id: 5,
+            id: 6,
             title: "Fantasy League",
             description: "Softwareentwicklungsprozesse kennenlernen",
             team: "Neun Kommilitonen, mit Unterteilungen in dreier Gruppen",
@@ -174,12 +202,12 @@
             ],
             hasGallery: true,
             mockup: "",
-            myWork: [],
+            myWork: "",
             path: "",
             docu:""
         },
         {
-            id: 6,
+            id: 7,
             title: "TeaCooker",
             description: "Ein Assistent, um immer den optimalsten Tee zu brühen",
             team: "alleine",
@@ -199,12 +227,12 @@
             hasGallery: true,
             mockup: "TC/TeaCooker_Video.mp4",
             mockupVorschau: "TC/VidoVorschau.png",
-            myWork: [],
+            myWork: "",
             path: "https://github.com/moumitahmad/TeaCooker",
             docu: "MoumitaAhmad_TeaCooker_Documentation.pdf"
         },
         {
-            id: 7,
+            id: 8,
             title: "Risiko",
             description: "Das Brettspiel 'Risiko' als Java-basiertes Multiplayer Spiel",
             team: "Drei köpfiges Team",

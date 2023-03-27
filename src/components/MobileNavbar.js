@@ -1,22 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import { Link as Scroller } from 'react-scroll';
 
-import { makeStyles } from '@material-ui/core/styles';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
-import { List, ListItem, Link, Divider, Drawer } from '@material-ui/core';
+import MenuIcon from '@mui/icons-material/Menu';
+import { List, ListItem, Link, Divider, Drawer, IconButton } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
-
-const useStyles = makeStyles((theme) => ({
+const classes = {
     menuButton: {
-      marginRight: theme.spacing(0),
+      marginRight: 0,
     },
-  }));
+}
 
 function MobileNavbar(props) {
     const menuItems = props.menuItems;
     const hasProject = props.hasProject;
-    const classes = useStyles();
 
     const [menuState, setMenuState] = useState(() => {
         return false;
@@ -34,7 +30,7 @@ function MobileNavbar(props) {
 
     return(
         <>
-            <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" onClick={() => toggleDrawer()}>
+            <IconButton edge="start" sx={classes.menuButton} color="inherit" aria-label="menu" onClick={() => toggleDrawer()}>
                 <MenuIcon />
             </IconButton>
                 <Drawer open={menuState} anchor="top" variant="temporary">

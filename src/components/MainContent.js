@@ -1,5 +1,5 @@
 
-import { Container } from '@material-ui/core';
+import { Container } from '@mui/material';
 
 
 import About from './About';
@@ -10,7 +10,7 @@ function MainContent() {
 
   return (
     <div className="main-content">
-      <Container maxWidth="md">
+      <Container maxWidth="false">
         <About></About>
         <Projects></Projects>
       </Container>

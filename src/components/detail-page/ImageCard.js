@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardHeader, CardMedia } from '@material-ui/core';
+import { Card, CardHeader, CardMedia } from '@mui/material';
 import { motion } from 'framer-motion';
 
 
@@ -22,7 +22,7 @@ function ImageCard(props) {
                 component="img"
                 alt={ image.name }
                 height="150"
-                src={"/portfolio/assets/project-media/" + image.name}
+                src={"/project-media/" + image.name} // /portfolio/assets
                 title={image.name}
                 />
                 <CardHeader

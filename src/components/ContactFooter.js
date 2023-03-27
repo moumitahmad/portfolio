@@ -1,6 +1,6 @@
 import '../style/App.css';
 
-import { Grid, Box, Button, Typography, Container } from '@material-ui/core';
+import { Grid, Box, Button, Typography, Container } from '@mui/material';
 
 import cv_path from '../assets/Lebenslauf_MoumitaAhmad.pdf';
 
@@ -57,7 +57,7 @@ function ContactFooter() {
                 <br/>
                 <br/>
                 <Typography gutterBottom variant="subtitle1" className="oswald align-center">
-                    &copy; 2021 Moumita Ahmad
+                    &copy; 2023 Moumita Ahmad
                 </Typography>
             </Container>
             </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Typography, Card, CardMedia } from '@material-ui/core';
+import { Grid, Typography, Card, CardMedia } from '@mui/material';
 
 import meImg from '../assets/mePicColor.jpg';
 
@@ -7,7 +7,7 @@ import meImg from '../assets/mePicColor.jpg';
 function About() {
 
     return(
-        <div>
+        <div id="about">
             <br/>
             <br/>
             <br/>
@@ -29,9 +29,10 @@ function About() {
                 </Grid>
                 <Grid item xs={12} sm={8}>
                     <Typography variant="body1" gutterBottom  align="justify">
-                        Hier werden mehrere meiner verschiedenen Projekte präsentiert.<br />
-                        Wenn Sie also gerne etwas mehr darüber erfahren wollen, welche Projekte ich in den letzten Jahren entwickelt habe und wie diese entstanden und verlaufen sind, sind Sie hier genau richtig! <br />
-                        Momentan besuche ich das siebten Semester des internationalen Studiengangs Medieninformatik an der Hochschule Bremen. Viele dieser Projekte sind im Rahmen von Modulen an der Hochschule entstanden. <br /> Viel Spaß :)
+                        Hier werden mehrere meiner verschiedenen Projekte präsentiert. Sie alle sind in Rahmen von Modulen an der Hochschule Bremen entstanden.<br />
+                        Wenn Sie also gerne etwas mehr darüber erfahren wollen, welche Projekte ich entwickelt habe und wie diese entstanden und verlaufen sind, sind Sie hier genau richtig! <br />
+                        Durch ein paar Bilder und Texte kann sich hier einen Eindruck verschaffen werden.
+                        Viel Spaß :)
                     </Typography>
                 </Grid>
             </Grid>

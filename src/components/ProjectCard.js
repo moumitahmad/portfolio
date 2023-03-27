@@ -1,7 +1,7 @@
 import React from 'react';
 import '.././style/App.css';
 import { Link as RouterLink } from 'react-router-dom';
-import { Card, CardContent, CardMedia, CardActionArea, Link, Typography } from '@material-ui/core';
+import { Card, CardContent, CardMedia, CardActionArea, Link, Typography } from '@mui/material';
 import { motion } from 'framer-motion';
 
 
@@ -26,7 +26,7 @@ function ProjectCard(props) {
                 component="img"
                 alt={ project.image }
                 height="240"
-                src={"/portfolio/assets/project-media/" + project.image}
+                src={"/project-media/" + project.image} // /portfolio/assets
                 title={ project.title + "_preview" }
               />
             </motion.div>

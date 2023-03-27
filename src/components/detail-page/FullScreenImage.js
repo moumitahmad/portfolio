@@ -1,6 +1,5 @@
-import { Modal, Typography } from '@material-ui/core';
-import { IconButton } from '@material-ui/core';
-import { ArrowForward, ArrowBack } from '@material-ui/icons';
+import { Modal, Typography, IconButton } from '@mui/material';
+import { ArrowForward, ArrowBack } from '@mui/icons-material';
 
 function FullScreenImage(props) {
     const image = props.image;
@@ -15,7 +14,7 @@ function FullScreenImage(props) {
                 <IconButton color="primary" className="arrow-button next" onClick={() => props.forwardFunction()}>
                     <ArrowForward />
                 </IconButton>
-                <img className="fullscreen-img" src={"/portfolio/assets/project-media/" + image.name} alt={image.name} width="75%" onClick={() => props.closeFunction()}/>
+                <img className="fullscreen-img" src={"/project-media/" + image.name} alt={image.name} width="75%" onClick={() => props.closeFunction()}/> {/* /portfolio/assets/ */}
                 <Typography className="white-text" variant="body1">{image.description}</Typography>
                 <br></br>
             </>
