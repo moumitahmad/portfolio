@@ -1,7 +1,7 @@
-# A personal Portfolio
+# Ein persönliches Porfolio
 
-A website, which presents some of my finished projects. <br/> But it not only shows the finished product, but also insights into the development process.
-The finished project can be seen here: https://moumitahmad.github.io/portfolio
+Eine Webseite, welche viele meine beendeten Projekten aus der Hochschule präsentiert. <br/> Doch die Webseite zeigt auch ein Einblick in die Entwicklungschritte und Arbeitsprozesse der einzelnen Projekten.
+Das Projekt ist hier online: https://moumitahmad.github.io/portfolio
 
 ## Hintergrund
 
