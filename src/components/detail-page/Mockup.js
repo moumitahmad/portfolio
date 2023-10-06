@@ -16,10 +16,10 @@ function Mockup(props) {
             <CardMedia
                 component="video"
                 alt={ project.mockup }
-                src={ "/project-media/" + project.mockup } // /portfolio/assets
+                src={ "/portfolio/project-media/" + project.mockup }
                 title={ project.mockup }
                 controls={true}
-                poster={"/project-media/" + project.mockupVorschau} // /portfolio/assets
+                poster={"/portfolio/project-media/" + project.mockupVorschau}
                 sx={classes.video}
                 />
             </Card>

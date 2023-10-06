@@ -48,13 +48,13 @@ function ProjectDescription(props) {
                 <Grid item xs={12} md={6}>
                     <div className="about-image">
                         <Card>
-                        <CardMedia
-                        component="img"
-                        alt={ project.image }
-                        height="320"
-                        src={"/portfolio/assets/project-media/" + project.image}
-                        title={ project.title + "_preview" }
-                        />
+                            <CardMedia
+                            component="img"
+                            alt={ project.image }
+                            height="320"
+                            src={"/portfolio/project-media/" + project.image}
+                            title={ project.title + "_preview" }
+                            />
                         </Card>
                     </div>
                 </Grid>

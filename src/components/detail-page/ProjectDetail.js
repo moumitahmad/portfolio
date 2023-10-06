@@ -99,21 +99,27 @@ function PresentDetail({ match }) {
                             }
                         </li>
                         <li>
+                            { project.thesis == null
+                            ? null
+                            : <Button className="link-buttons" variant="contained" color="primary" target="_blank" rel="noopener noreferrer" href={ "/portfolio/assets/project-media/dokus/" + project.thesis }>zur Thesis</Button> /* /portfolio/assets */
+                            }
+                        </li>
+                        <li>
                             { project.path === ""
                             ? null
                             : <Button className="link-buttons" variant="contained" color="secondary" target="_blank" rel="noopener noreferrer" href={ project.path }>zum Source Code</Button>
                             }
                         </li>
                         <li>
-                            { project.docu === ""
+                            { project.docu == null
                             ? null
-                            : <Button className="link-buttons" variant="contained" color="primary" target="_blank" rel="noopener noreferrer" href={ "/project-media/dokus/" + project.docu }>zur Dokumentation</Button> /* /portfolio/assets */
+                            : <Button className="link-buttons" variant="contained" color="primary" target="_blank" rel="noopener noreferrer" href={ "/portfolio/assets/project-media/dokus/" + project.docu }>zur Dokumentation</Button> /* /portfolio/assets */
                             }
                         </li>
                         <li>
                             { project.docu2 == null
                             ? null
-                            : <Button className="link-buttons" variant="contained" color="primary" target="_blank" rel="noopener noreferrer" href={ "/potfolio/assets/project-media/dokus/" + project.docu2 }>zur HoloCubes Dokumentation</Button>
+                            : <Button className="link-buttons" variant="contained" color="primary" target="_blank" rel="noopener noreferrer" href={ "/potfolio/project-media/dokus/" + project.docu2 }>zur HoloCubes Dokumentation</Button>
                             }
                         </li>
                     </ul>

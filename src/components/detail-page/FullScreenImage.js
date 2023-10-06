@@ -14,7 +14,7 @@ function FullScreenImage(props) {
                 <IconButton color="primary" className="arrow-button next" onClick={() => props.forwardFunction()}>
                     <ArrowForward />
                 </IconButton>
-                <img className="fullscreen-img" src={"/portfolio/assets/project-media/" + image.name} alt={image.name} width="75%" onClick={() => props.closeFunction()}/>
+                <img className="fullscreen-img" src={"/portfolio/project-media/" + image.name} alt={image.name} width="75%" onClick={() => props.closeFunction()}/>
                 <Typography className="white-text" variant="body1">{image.description}</Typography>
                 <br></br>
             </>
