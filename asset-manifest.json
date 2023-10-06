@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.008ea55e.css",
-    "main.js": "/portfolio/static/js/main.3b17a854.js",
+    "main.js": "/portfolio/static/js/main.34625b8e.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/mePicColor.jpg": "/portfolio/static/media/mePicColor.88a424cf6740fa46453d.jpg",
     "static/media/Lebenslauf_MoumitaAhmad.pdf": "/portfolio/static/media/Lebenslauf_MoumitaAhmad.56fa170b04e8214ea860.pdf",
     "index.html": "/portfolio/index.html",
     "main.008ea55e.css.map": "/portfolio/static/css/main.008ea55e.css.map",
-    "main.3b17a854.js.map": "/portfolio/static/js/main.3b17a854.js.map",
+    "main.34625b8e.js.map": "/portfolio/static/js/main.34625b8e.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.008ea55e.css",
-    "static/js/main.3b17a854.js"
+    "static/js/main.34625b8e.js"
   ]
 }
