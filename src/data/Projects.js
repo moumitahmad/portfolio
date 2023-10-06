@@ -3,7 +3,7 @@
         {
             id: 0,
             title: "Meine Bachelorthesis",
-            description: '"Gamification-basierte Ansätze zur Förderung von kreativen Problemlösungen - Analyse und Evaluation im Kontext von familiärer und selbstorganisierter Pflege -"',
+            description: "Gamification-basierte Ansätze zur Förderung von kreativen Problemlösungen - Analyse und Evaluation im Kontext von familiärer und selbstorganisierter Pflege -",
             team: "Alleine",
             duration: "Ein Semester",
             time: "Letztes Semester, Beginn 2023",
