@@ -101,7 +101,7 @@ function PresentDetail({ match }) {
                         <li>
                             { project.thesis == null
                             ? null
-                            : <Button className="link-buttons" variant="contained" color="primary" target="_blank" rel="noopener noreferrer" href={ "/portfolio/assets/project-media/dokus/" + project.thesis }>zur Thesis</Button> /* /portfolio/assets */
+                            : <Button className="link-buttons" variant="contained" color="primary" target="_blank" rel="noopener noreferrer" href={ "/portfolio/project-media/dokus/" + project.thesis }>zur Thesis</Button> /* /portfolio/assets */
                             }
                         </li>
                         <li>
@@ -113,7 +113,7 @@ function PresentDetail({ match }) {
                         <li>
                             { project.docu == null
                             ? null
-                            : <Button className="link-buttons" variant="contained" color="primary" target="_blank" rel="noopener noreferrer" href={ "/portfolio/assets/project-media/dokus/" + project.docu }>zur Dokumentation</Button> /* /portfolio/assets */
+                            : <Button className="link-buttons" variant="contained" color="primary" target="_blank" rel="noopener noreferrer" href={ "/portfolio/project-media/dokus/" + project.docu }>zur Dokumentation</Button> /* /portfolio/assets */
                             }
                         </li>
                         <li>
