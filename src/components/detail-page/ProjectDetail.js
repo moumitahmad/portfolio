@@ -119,7 +119,7 @@ function PresentDetail({ match }) {
                         <li>
                             { project.docu2 == ""
                             ? null
-                            : <Button className="link-buttons" variant="contained" color="primary" target="_blank" rel="noopener noreferrer" href={ "/potfolio/project-media/dokus/" + project.docu2 }>zur HoloCubes Dokumentation</Button>
+                            : <Button className="link-buttons" variant="contained" color="primary" target="_blank" rel="noopener noreferrer" href={ "/portfolio/project-media/dokus/" + project.docu2 }>zur HoloCubes Dokumentation</Button>
                             }
                         </li>
                     </ul>
