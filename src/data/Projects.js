@@ -57,7 +57,7 @@
             mockup: "",
             myWork: "",
             path: "https://github.com/moumitahmad/Stammbaum",
-            docu: ""
+            docu: "C++ - Gruppe 3 - Stammbaum.pdf"
         },
         {
             id: 2,
