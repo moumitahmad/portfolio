@@ -138,7 +138,7 @@ function PresentDetail({ match }) {
             </li>
             <li>
               {
-                project.docu === "" ? null : (
+                project.docu === null ? null : (
                   <Button
                     className="link-buttons"
                     variant="contained"
@@ -153,7 +153,7 @@ function PresentDetail({ match }) {
               }
             </li>
             <li>
-              {project.docu2 === "" ? null : (
+              {project.docu2 === null ? null : (
                 <Button
                   className="link-buttons"
                   variant="contained"
