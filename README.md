@@ -14,4 +14,4 @@ Um schnell ein ansehnliches Design zu erhalten habe ich Material UI als CSS Fram
 ## Author
 
 Moumita Ahmad
-(mahmad@stud.hs-bremen.de)
+(mahmad@uni-bremen.de)
